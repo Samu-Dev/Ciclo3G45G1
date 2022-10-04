@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\SAMUEL CORREDOR\Documents\2022MISIONTIC\CICLO3\PROGRAMACION\proyecto_ciclo3"
+VIRTUAL_ENV="C:\Users\SAMUEL CORREDOR\documents\2022MISIONTIC\CICLO3\PROGRAMACION\HomeElectric"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -55,9 +55,9 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    PS1="(proyecto_ciclo3) ${PS1:-}"
+    PS1="(HomeElectric) ${PS1:-}"
     export PS1
-    VIRTUAL_ENV_PROMPT="(proyecto_ciclo3) "
+    VIRTUAL_ENV_PROMPT="(HomeElectric) "
     export VIRTUAL_ENV_PROMPT
 fi
 
